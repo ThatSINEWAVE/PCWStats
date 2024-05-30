@@ -387,6 +387,80 @@ footer {
     background: #f1f1f1;
 }
 
+.compare-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.compare-section h2 {
+    font-size: 3em;
+    margin-bottom: 33px;
+}
+
+.compare-section p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.compare-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Compare Column Styles */
+.compare-column {
+    flex: 1;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.column-header {
+    font-size: 1.8em;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f8f9fa;
+}
+
+.stat-names div,
+.tank-stats div {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.stat-names div:last-child,
+.tank-stats div:last-child {
+    border-bottom: none;
+}
+
+.tank-stats {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+}
+
+.stat-names {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+}
+
 /* Responsive Styles */
 @media (max-width: 768px) {
    header {
