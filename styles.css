@@ -4,7 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #333;
     scroll-behavior: smooth;
-    background: #f4f4f4;
+    background: #DFDFDF;
 }
 
 h1, h2, h3, p {
@@ -131,7 +131,7 @@ header nav ul li a i {
 .features-section {
     padding: 80px 20px;
     text-align: center;
-    background: #fff;
+    background: #DFDFDF;
 }
 
 .features-section h2 {
@@ -238,7 +238,7 @@ footer {
 }
 
 ::-webkit-scrollbar-track {
-    background: #242526;
+    background: #27292c;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -465,6 +465,23 @@ select {
     display: grid;
     grid-template-columns: 1fr;
     gap: 8px;
+}
+
+.stat {
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.higher {
+    background: green;
+}
+
+.lower {
+    background: red;
+}
+
+.equal {
+    background: black;
 }
 
 /* Responsive Styles */
