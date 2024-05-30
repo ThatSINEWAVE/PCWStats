@@ -38,52 +38,137 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function displayStats(tank1, tank2) {
-        tank1StatsContainer.innerHTML = '';
-        tank2StatsContainer.innerHTML = '';
-        statNamesContainer.innerHTML = '';
+  tank1StatsContainer.innerHTML = '';
+  tank2StatsContainer.innerHTML = '';
+  statNamesContainer.innerHTML = '';
 
-        categories.forEach(category => {
-            const tank1CategoryStats = tank1[category];
-            const tank2CategoryStats = tank2[category];
+  const higherIsBetter = [
+    'TANK NAME',
+    'DAMAGE',
+    'SHELLS IN MAGAZINE',
+    'MAGAZINE COUNT',
+    'TURRET TRAVERSE SPEED',
+    'GUN ELEVATION SPEED, DEGREES/SECOND',
+    'GUN ELEVATION, FRONT',
+    'GUN ELEVATION, SIDE',
+    'GUN ELEVATION, REAR',
+    'PENETRATION',
+    'MODULE DAMAGE',
+    'SHELL SPEED, METER/SECOND',
+    'FORWARD SPEED, KM/H',
+    'REVERSE SPEED, KM/H',
+    'BASE ACCELERATION',
+    'TRAVERSE SPEED',
+    'SPRINT ENERGY VOLUME',
+    'SPRINT REGEN RATE',
+    'RAMMING MASS MEASURE',
+    'HIT POINTS',
+    'CREW HIT POINTS',
+    'ENGINE HIT POINTS',
+    'TRACK HIT POINTS',
+    'SPOTTING ANGLE, DEGREES',
+    'SPOTTING RANGE, METERS',
+    'SPOTTING DURATION, SECONDS',
+    'SIGNAL RANGE, METERS',
+    'X-RAY RADIUS, METERS',
+    'ENERGY POINTS',
+    'SMOKE USE COUNT',
+    'FIREPOWER Score',
+    'MOBILITY Score',
+    'SURVIVABILITY Score',
+    'RECON Score',
+    'UTILITY Score'
+  ];
 
-            for (const stat in tank1CategoryStats) {
-                if (tank1CategoryStats[stat] !== null && tank2CategoryStats[stat] !== null) {
-                    // Create stat name
-                    const statNameElement = document.createElement('div');
-                    statNameElement.textContent = stat;
-                    statNamesContainer.appendChild(statNameElement);
+  const lowerIsBetter = [
+    'AIMING SPEED',
+    'RELOAD TIME',
+    'TIME BETWEEN SHOTS',
+    'TIME TO LOAD NEXT MAGAZINE',
+    'RETICLE SIZE, MOVING',
+    'RETICLE SIZE, ROTATING HULL',
+    'RETICLE SIZE, STANDING',
+    'RETICLE SIZE, AFTER SHOT',
+    'RETICLE SIZE, MAX',
+    'GUN DEPRESSION, FRONT',
+    'GUN DEPRESSION, SIDE',
+    'GUN DEPRESSION, REAR',
+    'SPRINT ENERGY COST',
+    'TRACK REPAIR TIME, SECONDS',
+    'CREW RECOVERY TIME, SECONDS',
+    'INCOMING CRIT DAMAGE, ENGINE',
+    'ENGINE REPAIR TIME, SECONDS',
+    'FIRE DURATION, SECONDS',
+    'FIRE DAMAGE',
+    'INCOMING CRIT DAMAGE, FUEL TANK',
+    'FIRE DAMAGE RATE',
+    'RAMMING DAMAGE RESISTANCE, FRONT',
+    'RAMMING DAMAGE BONUS',
+    'REPAIR KIT COOLDOWN, SECONDS',
+    'LTRACKAMOUNTTOREGEN',
+    'ENERGY REGENERATION',
+    'SMOKE COOLDOWN, SECONDS',
+    'SMOKE ENERGY COST'
+  ];
 
-                    // Create tank1 stat element
-                    const tank1StatElement = document.createElement('div');
-                    tank1StatElement.textContent = tank1CategoryStats[stat] || '-';
-                    tank1StatsContainer.appendChild(tank1StatElement);
+  categories.forEach(category => {
+    const tank1CategoryStats = tank1[category];
+    const tank2CategoryStats = tank2[category];
 
-                    // Create tank2 stat element
-                    const tank2StatElement = document.createElement('div');
-                    tank2StatElement.textContent = tank2CategoryStats[stat] || '-';
-                    tank2StatsContainer.appendChild(tank2StatElement);
+    for (const stat in tank1CategoryStats) {
+      if (tank1CategoryStats[stat] !== null && tank2CategoryStats[stat] !== null) {
+        // Create stat name
+        const statNameElement = document.createElement('div');
+        statNameElement.textContent = stat;
+        statNamesContainer.appendChild(statNameElement);
 
-                    // Compare stats
-                    const statValue1 = parseFloat(tank1CategoryStats[stat]);
-                    const statValue2 = parseFloat(tank2CategoryStats[stat]);
+        // Create tank1 stat element
+        const tank1StatElement = document.createElement('div');
+        tank1StatElement.textContent = tank1CategoryStats[stat] || '-';
+        tank1StatsContainer.appendChild(tank1StatElement);
 
-                    if (statValue1 > statValue2) {
-                        tank1StatElement.classList.add('higher');
-                        tank2StatElement.classList.add('lower');
-                    } else if (statValue1 < statValue2) {
-                        tank1StatElement.classList.add('lower');
-                        tank2StatElement.classList.add('higher');
-                    } else {
-                        tank1StatElement.classList.add('equal');
-                        tank2StatElement.classList.add('equal');
-                    }
+        // Create tank2 stat element
+        const tank2StatElement = document.createElement('div');
+        tank2StatElement.textContent = tank2CategoryStats[stat] || '-';
+        tank2StatsContainer.appendChild(tank2StatElement);
 
-                    tank1StatElement.classList.add('stat');
-                    tank2StatElement.classList.add('stat');
-                }
-            }
-        });
+        // Compare stats
+        const statValue1 = parseFloat(tank1CategoryStats[stat]);
+        const statValue2 = parseFloat(tank2CategoryStats[stat]);
+
+        if (higherIsBetter.includes(stat)) {
+          if (statValue1 > statValue2) {
+            tank1StatElement.style.backgroundColor = '#8FFF94';
+            tank2StatElement.style.backgroundColor = '#FF8F8F';
+          } else if (statValue1 < statValue2) {
+            tank1StatElement.style.backgroundColor = '#FF8F8F';
+            tank2StatElement.style.backgroundColor = '#8FFF94';
+          } else {
+            tank1StatElement.style.backgroundColor = '#FFFD8F';
+            tank2StatElement.style.backgroundColor = '#FFFD8F';
+          }
+        } else if (lowerIsBetter.includes(stat)) {
+          if (statValue1 < statValue2) {
+            tank1StatElement.style.backgroundColor = '#8FFF94';
+            tank2StatElement.style.backgroundColor = '#FF8F8F';
+          } else if (statValue1 > statValue2) {
+            tank1StatElement.style.backgroundColor = '#FF8F8F';
+            tank2StatElement.style.backgroundColor = '#8FFF94';
+          } else {
+            tank1StatElement.style.backgroundColor = '#FFFD8F';
+            tank2StatElement.style.backgroundColor = '#FFFD8F';
+          }
+        } else {
+          tank1StatElement.style.backgroundColor = '#FFFD8F';
+          tank2StatElement.style.backgroundColor = '#FFFD8F';
+        }
+
+        tank1StatElement.classList.add('stat');
+        tank2StatElement.classList.add('stat');
+      }
     }
+  });
+}
 
     window.updateComparison = updateComparison;
 });
