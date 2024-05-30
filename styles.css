@@ -23,7 +23,7 @@ header {
    top: 0;
    left: 0;
    background: #1e1f22;
-   color: #ffffff;
+   color: #FF8300;
    padding: 20px;
    z-index: 1000;
    display: flex;
@@ -56,7 +56,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-   color: #ffffff;
+   color: #FF8300;
    text-decoration: none;
    font-weight: 700;
    transition: color 0.3s;
@@ -70,6 +70,7 @@ header nav ul li a:hover {
 
 header nav ul li a i {
    margin-right: 8px;
+   color: #fff;
 }
 
 /* Hero Section Styles */
@@ -113,7 +114,7 @@ header nav ul li a i {
 
 .hero-section .buttons button {
     background: #1e1f22;
-    color: #fff;
+    color: #FF8300;
     border: none;
     padding: 10px 20px;
     margin: 10px;
@@ -123,7 +124,7 @@ header nav ul li a i {
 }
 
 .hero-section .buttons button:hover {
-    background: #444;
+    background: #000;
 }
 
 /* Features Section Styles */
@@ -150,10 +151,11 @@ header nav ul li a i {
 }
 
 .feature {
-    background: #f4f4f4;
+    background: #27292c;
     border: 1px solid #ddd;
     border-radius: 10px;
     margin: 10px;
+    color: #fff;
     padding: 20px;
     flex: 1 1 300px;
     text-align: center;
@@ -161,23 +163,24 @@ header nav ul li a i {
 
 .feature i {
     font-size: 3em;
-    color: #1e1f22;
+    color: #FF8300;
     margin-bottom: 10px;
 }
 
 .feature h3 {
     font-size: 1.5em;
+    color: #fff;
     margin-bottom: 10px;
 }
 
 .feature p {
     font-size: 1em;
-    color: #666;
+    color: #fff;
 }
 
 .feature button {
     background: #1e1f22;
-    color: #fff;
+    color: #ff8300;
     border: none;
     padding: 10px 20px;
     font-size: 1em;
@@ -186,7 +189,7 @@ header nav ul li a i {
 }
 
 .feature button:hover {
-    background: #26282e;
+    background: #000;
 }
 
 /* CTA Section Styles */
@@ -208,8 +211,8 @@ header nav ul li a i {
 }
 
 .cta-section button {
-    background: #f4f4f4;
-    color: #242526;
+    background: #1e1f22;
+    color: #ff8300;
     border: none;
     padding: 10px 20px;
     font-size: 1em;
@@ -218,7 +221,7 @@ header nav ul li a i {
 }
 
 .cta-section button:hover {
-    background: #ddd;
+    background: #000;
 }
 
 /* Footer Styles */
@@ -274,7 +277,7 @@ footer {
     width: 300px;
     text-align: center;
     padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px rgba(255, 131, 0, 0.4);
     transition: transform 0.3s;
 }
 
@@ -303,7 +306,7 @@ footer {
 
 .tank-box .buttons button {
     background: #242526;
-    color: #fff;
+    color: #ff8300;
     border: none;
     padding: 10px 20px;
     margin: 5px;
@@ -313,7 +316,7 @@ footer {
 }
 
 .tank-box .buttons button:hover {
-    background: #26282e;
+    background: #000;
 }
 
 /* Tank Stats Section Styles */
