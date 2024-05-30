@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Compare Tanks - Project CW Stats</title>
@@ -12,231 +12,240 @@
     <link rel="icon" type="image/png" sizes="32x32" href="site-data/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="site-data/favicon-16x16.png">
     <link rel="manifest" href="site-data/site.webmanifest">
-</head>
-<body>
+  </head>
+  <body>
     <header id="header">
-        <div class="container">
-            <h1>Project CW Stats</h1>
-            <nav>
-                <ul>
-                    <li><a href="https://github.com" target="_blank"><i class="fab fa-github"></i> Github</a></li>
-                    <li><a href="https://www.patreon.com" target="_blank"><i class="fas fa-heart"></i> Support Me</a></li>
-                    <li><a href="https://discord.com" target="_blank"><i class="fab fa-discord"></i> Discord</a></li>
-                </ul>
-            </nav>
-        </div>
+      <div class="container">
+        <h1>Project CW Stats</h1>
+        <nav>
+          <ul>
+            <li>
+              <a href="https://github.com" target="_blank">
+                <i class="fab fa-github"></i> Github </a>
+            </li>
+            <li>
+              <a href="https://www.patreon.com" target="_blank">
+                <i class="fas fa-heart"></i> Support </a>
+            </li>
+            <li>
+              <a href="https://discord.com" target="_blank">
+                <i class="fab fa-discord"></i> Discord </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
-        <section class="compare-section">
-            <h2>Check & Compare</h2>
-            <p>Select two tanks from the dropdowns below to compare their stats.</p>
-            <div class="compare-container">
-                <div class="compare-column">
-                    <div class="column-header">STATS</div>
-                    <div id="stat-names" class="stat-names">
-                        <div>TANK NAME</div>
-                        <div>DAMAGE</div>
-                        <div>AIMING SPEED</div>
-                        <div>RELOAD TIME</div>
-                        <div>TIME BETWEEN SHOTS</div>
-                        <div>SHELLS IN MAGAZINE</div>
-                        <div>MAGAZINE COUNT</div>
-                        <div>TIME TO LOAD NEXT MAGAZINE</div>
-                        <div>RETICLE SIZE, MOVING</div>
-                        <div>RETICLE SIZE, ROTATING HULL</div>
-                        <div>RETICLE SIZE, STANDING</div>
-                        <div>RETICLE SIZE, AFTER SHOT</div>
-                        <div>RETICLE SIZE, MAX</div>
-                        <div>TURRET TRAVERSE SPEED</div>
-                        <div>GUN ELEVATION SPEED, DEGREES/SECOND</div>
-                        <div>GUN DEPRESSION, FRONT</div>
-                        <div>GUN DEPRESSION, SIDE</div>
-                        <div>GUN DEPRESSION, REAR</div>
-                        <div>GUN ELEVATION, FRONT</div>
-                        <div>GUN ELEVATION, SIDE</div>
-                        <div>GUN ELEVATION, REAR</div>
-                        <div>PENETRATION</div>
-                        <div>MODULE DAMAGE</div>
-                        <div>SHELL SPEED, METER/SECOND</div>
-                        <div>FORWARD SPEED, KM/H</div>
-                        <div>REVERSE SPEED, KM/H</div>
-                        <div>BASE ACCELERATION</div>
-                        <div>TRAVERSE SPEED</div>
-                        <div>SPRINT ENERGY COST</div>
-                        <div>SPRINT ENERGY VOLUME</div>
-                        <div>SPRINT REGEN RATE</div>
-                        <div>RAMMING MASS MEASURE</div>
-                        <div>HIT POINTS</div>
-                        <div>INCOMING CRIT DAMAGE, AMMO RACK</div>
-                        <div>TRACK REPAIR TIME, SECONDS</div>
-                        <div>CREW HIT POINTS</div>
-                        <div>CREW RECOVERY TIME, SECONDS</div>
-                        <div>INCOMING CRIT DAMAGE, ENGINE</div>
-                        <div>ENGINE HIT POINTS</div>
-                        <div>ENGINE REPAIR TIME, SECONDS</div>
-                        <div>FIRE DURATION, SECONDS</div>
-                        <div>FIRE DAMAGE</div>
-                        <div>INCOMING CRIT DAMAGE, FUEL TANK</div>
-                        <div>FIRE DAMAGE RATE</div>
-                        <div>RAMMING DAMAGE RESISTANCE, FRONT</div>
-                        <div>RAMMING DAMAGE BONUS</div>
-                        <div>REPAIR KIT COOLDOWN, SECONDS</div>
-                        <div>TRACK HIT POINTS</div>
-                        <div>LTRACKAMOUNTTOREGEN</div>
-                        <div>RECON Score</div>
-                        <div>SPOTTING ANGLE, DEGREES</div>
-                        <div>SPOTTING RANGE, METERS</div>
-                        <div>SPOTTING DURATION, SECONDS</div>
-                        <div>SIGNAL RANGE, METERS</div>
-                        <div>X-RAY RADIUS, METERS</div>
-                        <div>UTILITY Score</div>
-                        <div>ENERGY POINTS</div>
-                        <div>ENERGY REGENERATION</div>
-                        <div>SMOKE COOLDOWN, SECONDS</div>
-                        <div>SMOKE ENERGY COST</div>
-                        <div>SMOKE USE COUNT</div>
-                    </div>
-                </div>
-                <div class="compare-column">
-                    <select id="tank1-select" onchange="updateComparison()">
-                        <option value="" disabled selected>Select Tank 1</option>
-                    </select>
-                    <div id="tank1-stats" class="tank-stats">
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                    </div>
-                </div>
-                <div class="compare-column">
-                    <select id="tank2-select" onchange="updateComparison()">
-                        <option value="" disabled selected>Select Tank 2</option>
-                    </select>
-                    <div id="tank2-stats" class="tank-stats">
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                        <div>Unknown</div>
-                    </div>
-                </div>
+      <section class="compare-section">
+        <h2>Check & Compare</h2>
+        <p>Select two tanks from the dropdowns below to compare their stats.</p>
+        <div class="compare-container">
+          <div class="compare-column">
+            <div class="column-header">STATS</div>
+            <div id="stat-names" class="stat-names">
+              <div>TANK NAME</div>
+              <div>DAMAGE</div>
+              <div>AIMING SPEED</div>
+              <div>RELOAD TIME</div>
+              <div>TIME BETWEEN SHOTS</div>
+              <div>SHELLS IN MAGAZINE</div>
+              <div>MAGAZINE COUNT</div>
+              <div>TIME TO LOAD NEXT MAGAZINE</div>
+              <div>RETICLE SIZE, MOVING</div>
+              <div>RETICLE SIZE, ROTATING HULL</div>
+              <div>RETICLE SIZE, STANDING</div>
+              <div>RETICLE SIZE, AFTER SHOT</div>
+              <div>RETICLE SIZE, MAX</div>
+              <div>TURRET TRAVERSE SPEED</div>
+              <div>GUN ELEVATION SPEED, DEGREES/SECOND</div>
+              <div>GUN DEPRESSION, FRONT</div>
+              <div>GUN DEPRESSION, SIDE</div>
+              <div>GUN DEPRESSION, REAR</div>
+              <div>GUN ELEVATION, FRONT</div>
+              <div>GUN ELEVATION, SIDE</div>
+              <div>GUN ELEVATION, REAR</div>
+              <div>PENETRATION</div>
+              <div>MODULE DAMAGE</div>
+              <div>SHELL SPEED, METER/SECOND</div>
+              <div>FORWARD SPEED, KM/H</div>
+              <div>REVERSE SPEED, KM/H</div>
+              <div>BASE ACCELERATION</div>
+              <div>TRAVERSE SPEED</div>
+              <div>SPRINT ENERGY COST</div>
+              <div>SPRINT ENERGY VOLUME</div>
+              <div>SPRINT REGEN RATE</div>
+              <div>RAMMING MASS MEASURE</div>
+              <div>HIT POINTS</div>
+              <div>INCOMING CRIT DAMAGE, AMMO RACK</div>
+              <div>TRACK REPAIR TIME, SECONDS</div>
+              <div>CREW HIT POINTS</div>
+              <div>CREW RECOVERY TIME, SECONDS</div>
+              <div>INCOMING CRIT DAMAGE, ENGINE</div>
+              <div>ENGINE HIT POINTS</div>
+              <div>ENGINE REPAIR TIME, SECONDS</div>
+              <div>FIRE DURATION, SECONDS</div>
+              <div>FIRE DAMAGE</div>
+              <div>INCOMING CRIT DAMAGE, FUEL TANK</div>
+              <div>FIRE DAMAGE RATE</div>
+              <div>RAMMING DAMAGE RESISTANCE, FRONT</div>
+              <div>RAMMING DAMAGE BONUS</div>
+              <div>REPAIR KIT COOLDOWN, SECONDS</div>
+              <div>TRACK HIT POINTS</div>
+              <div>LTRACKAMOUNTTOREGEN</div>
+              <div>RECON Score</div>
+              <div>SPOTTING ANGLE, DEGREES</div>
+              <div>SPOTTING RANGE, METERS</div>
+              <div>SPOTTING DURATION, SECONDS</div>
+              <div>SIGNAL RANGE, METERS</div>
+              <div>X-RAY RADIUS, METERS</div>
+              <div>UTILITY Score</div>
+              <div>ENERGY POINTS</div>
+              <div>ENERGY REGENERATION</div>
+              <div>SMOKE COOLDOWN, SECONDS</div>
+              <div>SMOKE ENERGY COST</div>
+              <div>SMOKE USE COUNT</div>
             </div>
-        </section>
+          </div>
+          <div class="compare-column">
+            <select id="tank1-select" onchange="updateComparison()">
+              <option value="" disabled selected>Select Tank 1</option>
+            </select>
+            <div id="tank1-stats" class="tank-stats">
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+            </div>
+          </div>
+          <div class="compare-column">
+            <select id="tank2-select" onchange="updateComparison()">
+              <option value="" disabled selected>Select Tank 2</option>
+            </select>
+            <div id="tank2-stats" class="tank-stats">
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+              <div>Unknown</div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-        <p>&copy; 2024 Project CW Stats. All rights reserved.</p>
+      <p>&copy; 2024 Project CW Stats. All rights reserved - SINEWAVE_</p>
     </footer>
     <script src="compare.js"></script>
-</body>
+  </body>
 </html>
