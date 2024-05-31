@@ -486,7 +486,8 @@ select {
 .stat {
     padding: 8px;
     border-radius: 4px;
-    color: #fff;
+    color: #000;
+    font-weight: bold;
 }
 
 .higher {
