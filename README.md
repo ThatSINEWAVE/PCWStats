@@ -16,13 +16,16 @@ Your feedback and support are greatly appreciated!
 ## Features
 
 ### Tank Statistics
+
 - **Tank Statistics:** Explore detailed statistics for each tank, including firepower, mobility, survivability, recon, and utility. Gain insights into a tank's capabilities to optimize your gameplay.
 
 ### Player Statistics (Not Yet Functional)
+
 - **Player Statistics (Coming Soon):** Track your performance and progress over time with personalized player statistics. Analyze your strengths and weaknesses to refine your skills.
 
 ### Compare Tanks
-- **Compare Tanks:** Compare the stats of different tanks side by side to make informed decisions about which tank suits your playstyle and strategy best.
+
+- **Compare Tanks:** Compare the stats of different tanks side by side to make informed decisions about which tank suits your play style and strategy best.
 
 <div align="center">
 
@@ -67,8 +70,15 @@ Some of the tanks included are:
 
 ## Known Issues
 
+The project is a work in progress, and updates are ongoing.
+
 - Player stats are currently not working.
-- The project is a work in progress, and updates are ongoing.
+
+
+## Future Improvements
+
+- Full customization in terms of upgrades and perks
+- Detailed comparator system that will take into account upgrades and such.
 
 ## Contributing
 
