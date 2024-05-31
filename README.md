@@ -21,8 +21,8 @@ Your feedback and support are greatly appreciated!
 ### Player Statistics (Not Yet Functional)
 - **Player Statistics (Coming Soon):** Track your performance and progress over time with personalized player statistics. Analyze your strengths and weaknesses to refine your skills.
 
-### Compare Tanks (Not Yet Functional)
-- **Compare Tanks (Coming Soon):** Compare the stats of different tanks side by side to make informed decisions about which tank suits your playstyle and strategy best.
+### Compare Tanks
+- **Compare Tanks:** Compare the stats of different tanks side by side to make informed decisions about which tank suits your playstyle and strategy best.
 
 <div align="center">
 
@@ -67,7 +67,7 @@ Some of the tanks included are:
 
 ## Known Issues
 
-- Player stats and compare features are currently not working.
+- Player stats are currently not working.
 - The project is a work in progress, and updates are ongoing.
 
 ## Contributing
