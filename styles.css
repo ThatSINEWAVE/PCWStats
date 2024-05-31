@@ -249,11 +249,11 @@ footer {
 }
 
 ::-webkit-scrollbar-track {
-    background: #27292c;
+    background: #1e1f22;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #888;
+    background: #ff8300;
     border-radius: 5px;
 }
 
