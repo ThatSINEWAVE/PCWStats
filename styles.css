@@ -113,18 +113,19 @@ header nav ul li a i {
 }
 
 .hero-section .buttons button {
-    background: #1e1f22;
+    background: #000;
     color: #FF8300;
     border: none;
     padding: 10px 20px;
     margin: 10px;
     font-size: 1em;
     cursor: pointer;
+    border-radius: 8px;
     transition: background 0.3s;
 }
 
 .hero-section .buttons button:hover {
-    background: #000;
+    background: #1e1f22;
 }
 
 /* Features Section Styles */
@@ -181,17 +182,18 @@ header nav ul li a i {
 }
 
 .feature button {
-    background: #1e1f22;
+    background: #000;
     color: #ff8300;
     border: none;
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
     transition: background 0.3s;
+    border-radius: 8px;
 }
 
 .feature button:hover {
-    background: #000;
+    background: #1e1f22;
 }
 
 /* CTA Section Styles */
@@ -219,17 +221,18 @@ header nav ul li a i {
 }
 
 .cta-section button {
-    background: #1e1f22;
+    background: #000;
     color: #ff8300;
     border: none;
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
+    border-radius: 8px;
     transition: background 0.3s;
 }
 
 .cta-section button:hover {
-    background: #000;
+    background: #1e1f22;
 }
 
 /* Footer Styles */
@@ -316,18 +319,19 @@ footer {
 }
 
 .tank-box .buttons button {
-    background: #2b2d30;
+    background: #000;
     color: #ff8300;
     border: none;
     padding: 10px 20px;
     margin: 5px;
     font-size: 1em;
     cursor: pointer;
+    border-radius: 8px;
     transition: background 0.3s;
 }
 
 .tank-box .buttons button:hover {
-    background: #000;
+    background: #2b2d30;
 }
 
 /* Tank Stats Section Styles */
