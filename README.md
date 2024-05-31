@@ -11,6 +11,9 @@ Although currently in its early beta stage, PCWStats aims to be the go-to platfo
 Stay tuned for updates and enhancements as we continue to improve the platform. 
 Your feedback and support are greatly appreciated!
 
+PCWStats is a community-made project.
+This project is not associated with Project CW or the Project CW team
+
 </div>
 
 ## Features
