@@ -198,6 +198,10 @@ header nav ul li a i {
     text-align: center;
     background: #27292c;
     color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .cta-section h2 {
@@ -208,6 +212,8 @@ header nav ul li a i {
 .cta-section p {
     font-size: 1.2em;
     margin-bottom: 30px;
+    max-width: 650px;
+    text-align: center;
 }
 
 .cta-section button {
