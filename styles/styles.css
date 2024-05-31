@@ -236,6 +236,46 @@ header nav ul li a i {
     background: #1e1f22;
 }
 
+/* Tank Section Styles */
+.tank-section {
+    padding: 20px;
+    text-align: center;
+    background: #2b2d30;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tank-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.tank-section p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    max-width: 650px;
+    text-align: center;
+}
+
+.tank-section button {
+    background: #000;
+    color: #ff8300;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.3s;
+    margin-bottom: 20px;
+}
+
+.tank-section button:hover {
+    background: #1e1f22;
+}
+
 /* Footer Styles */
 footer {
    background: #1e1f22;
