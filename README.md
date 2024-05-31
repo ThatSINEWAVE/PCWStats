@@ -5,7 +5,7 @@
 PCWStats is a web application dedicated to providing comprehensive statistics and insights for tanks within the game Project CW. 
 Although currently in its early beta stage, PCWStats aims to be the go-to platform for players seeking detailed information about tanks, facilitating informed decision-making and strategic gameplay.
 
-![PCWStats](https://github.com/ThatSINEWAVE/PCWStats/assets/133239148/90accb67-0aee-4af2-8361-b665c2e6b2f5)
+![PCWStats](https://github.com/ThatSINEWAVE/PCWStats/assets/133239148/08b8e04e-6848-4c46-83be-6db3ac6ad5ee)
 
 **Note:** PCWStats is a work-in-progress, and certain features such as player statistics and tank comparison are currently under development. 
 Stay tuned for updates and enhancements as we continue to improve the platform. 
