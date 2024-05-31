@@ -4,7 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #333;
     scroll-behavior: smooth;
-    background: #DFDFDF;
+    background: #2b2d30;
 }
 
 h1, h2, h3, p {
@@ -131,7 +131,8 @@ header nav ul li a i {
 .features-section {
     padding: 80px 20px;
     text-align: center;
-    background: #DFDFDF;
+    background: #1e1f22;
+    color: #fff;
 }
 
 .features-section h2 {
@@ -152,13 +153,14 @@ header nav ul li a i {
 
 .feature {
     background: #27292c;
-    border: 1px solid #ddd;
+    border: 1px solid #ff8300;
     border-radius: 10px;
     margin: 10px;
     color: #fff;
     padding: 20px;
     flex: 1 1 300px;
     text-align: center;
+    box-shadow: 0 0 5px rgba(255, 131, 0, 0.5)
 }
 
 .feature i {
@@ -260,7 +262,8 @@ footer {
 .tanks-section {
     padding: 80px 20px;
     text-align: center;
-    background: #fff;
+    background: #2b2d30;
+    color: #fff;
 }
 
 .tanks-section h2 {
@@ -277,10 +280,11 @@ footer {
 }
 
 .tank-box {
-    background: #f4f4f4;
-    border: 1px solid #ddd;
+    background: #1e1f22;
+    border: 1px solid #ff8300;
     border-radius: 10px;
     width: 300px;
+    color: #fff;
     text-align: center;
     padding: 20px;
     box-shadow: 0 0 5px rgba(255, 131, 0, 0.4);
@@ -298,12 +302,13 @@ footer {
 
 .tank-box h3 {
     font-size: 1.5em;
+    color: #fff;
     margin: 10px 0;
 }
 
 .tank-box p {
     font-size: 1em;
-    color: #666;
+    color: #fff;
 }
 
 .tank-box .buttons {
@@ -311,7 +316,7 @@ footer {
 }
 
 .tank-box .buttons button {
-    background: #242526;
+    background: #2b2d30;
     color: #ff8300;
     border: none;
     padding: 10px 20px;
@@ -329,14 +334,14 @@ footer {
 .tank-stats-section {
     padding: 80px 20px;
     text-align: center;
-    background: #fff;
+    background: #2b2d30;
 }
 
 .tank-stats-section h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
     margin-top: 30px;
-    color: #333;
+    color: #fff;
 }
 
 .tank-stats-section img {
@@ -353,27 +358,27 @@ footer {
 }
 
 .stat-section {
-    background: #f9f9f9;
-    border: 1px solid #ddd;
+    background: #1e1f22;
+    border: 1px solid #ff8300;
     border-radius: 10px;
     width: 100%;
     max-width: 800px;
     padding: 20px;
     margin: 10px 0;
     text-align: left;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px rgba(255, 131, 0, 0.5);
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .stat-section:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(255, 131, 0, 0.7);
 }
 
 .stat-section h3 {
     font-size: 1.5em;
     margin-bottom: 15px;
-    color: #242526;
+    color: #fff;
     border-bottom: 2px solid #242526;
     padding-bottom: 5px;
 }
@@ -385,19 +390,20 @@ footer {
 
 .stat-section ul li {
     font-size: 1.1em;
-    color: #333;
+    color: #fff;
     margin: 8px 0;
     padding: 8px 12px;
-    background: #fff;
+    background: #2b2d30;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px rgba(255, 131, 0, 0.5);
     transition: background 0.3s;
 }
 
 .stat-section ul li:hover {
-    background: #f1f1f1;
+    background: #1e1f22;
 }
 
+/* Compare Column Styles */
 .compare-section {
     max-width: 1200px;
     margin: 0 auto;
@@ -408,11 +414,13 @@ footer {
 .compare-section h2 {
     font-size: 3em;
     margin-bottom: 33px;
+    color: #fff;
 }
 
 .compare-section p {
     font-size: 1.2em;
     margin-bottom: 40px;
+    color: #fff;
 }
 
 .compare-container {
@@ -422,14 +430,13 @@ footer {
     margin-top: 20px;
 }
 
-/* Compare Column Styles */
 .compare-column {
     flex: 1;
-    background: #fff;
-    border: 1px solid #ddd;
+    background: #1e1f22;
+    border: 1px solid #ff8300;
     border-radius: 10px;
     padding: 15px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px rgba(255, 131, 0, 0.5);
     text-align: left;
     margin-bottom: 50px;
 }
@@ -438,6 +445,7 @@ footer {
     font-size: 1.8em;
     margin-bottom: 25px;
     text-align: center;
+    color: #fff;
 }
 
 select {
@@ -445,15 +453,15 @@ select {
     padding: 10px;
     font-size: 1em;
     margin-bottom: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #2b2d30;
     border-radius: 5px;
-    background: #f8f9fa;
+    background: #fff;
 }
 
 .stat-names div,
 .tank-stats div {
     padding: 8px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #2b2d30;
 }
 
 .stat-names div:last-child,
@@ -465,17 +473,20 @@ select {
     display: grid;
     grid-template-columns: 1fr;
     gap: 8px;
+    color: #fff;
 }
 
 .stat-names {
     display: grid;
     grid-template-columns: 1fr;
     gap: 8px;
+    color: #fff;
 }
 
 .stat {
     padding: 8px;
     border-radius: 4px;
+    color: #fff;
 }
 
 .higher {
