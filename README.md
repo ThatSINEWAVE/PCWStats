@@ -82,6 +82,7 @@ The project is a work in progress, and updates are ongoing.
 
 - Full customization in terms of upgrades and perks
 - Detailed comparator system that will take into account upgrades and such.
+- Improve and fix UX on mobile.
 
 ## Contributing
 
