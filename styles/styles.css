@@ -33,7 +33,6 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	transition: top 0.3s ease;
-	/* Add this line */
 }
 
 header .container {
@@ -74,6 +73,11 @@ header nav ul li a:hover {
 }
 
 header nav ul li a i {
+	margin-right: 8px;
+	color: #ff8300;
+}
+
+header nav ul li a i:hover {
 	margin-right: 8px;
 	color: #fff;
 }
@@ -864,4 +868,20 @@ select {
 	.stat-section {
 		max-width: 100%;
 	}
+
+    .map-image-section .image-container {
+      max-width: 600px;
+    }
+
+	.map-details-section {
+      padding: 20px;
+    }
+
+    .map-image-section {
+      padding: 20px;
+    }
+
+    .map-text-section {
+      padding: 20px;
+    }
 }
