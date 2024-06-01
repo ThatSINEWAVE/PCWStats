@@ -78,18 +78,18 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-	color: #fff;
+	color: #FF8300;
 }
 
 header nav ul li a i {
 	margin-right: 8px;
 	color: #ff8300;
+	transition: color 0.3s;
 	line-height: 40px;
     vertical-align: middle;
 }
 
 header nav ul li a i:hover {
-	margin-right: 8px;
 	color: #fff;
 }
 
