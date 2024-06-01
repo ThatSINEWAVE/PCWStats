@@ -5,7 +5,7 @@
 PCWStats is a web application dedicated to providing comprehensive statistics and insights for tanks within the game Project CW. 
 Although currently in its early beta stage, PCWStats aims to be the go-to platform for players seeking detailed information about tanks, facilitating informed decision-making and strategic gameplay.
 
-![PCWStats](https://github.com/ThatSINEWAVE/PCWStats/assets/133239148/08b8e04e-6848-4c46-83be-6db3ac6ad5ee)
+![PCWStats](https://github.com/ThatSINEWAVE/PCWStats/assets/133239148/041cd607-e5eb-437e-b92e-33bad7904261)
 
 **Note:** PCWStats is a work-in-progress, and certain features such as player statistics and tank comparison are currently under development. 
 Stay tuned for updates and enhancements as we continue to improve the platform. 
@@ -22,13 +22,18 @@ This project is not associated with Project CW or the Project CW team
 
 - **Tank Statistics:** Explore detailed statistics for each tank, including firepower, mobility, survivability, recon, and utility. Gain insights into a tank's capabilities to optimize your gameplay.
 
-### Player Statistics (Not Yet Functional)
+### Map Knowledge
 
-- **Player Statistics (Coming Soon):** Track your performance and progress over time with personalized player statistics. Analyze your strengths and weaknesses to refine your skills.
+- **Map Knowledge:** Learn about the maps and positions on each map in Project CW.
 
 ### Compare Tanks
 
 - **Compare Tanks:** Compare the stats of different tanks side by side to make informed decisions about which tank suits your play style and strategy best.
+
+### Player Statistics (Not Yet Functional)
+
+- **Player Statistics (Coming Soon):** Track your performance and progress over time with personalized player statistics. Analyze your strengths and weaknesses to refine your skills.
+
 
 <div align="center">
 
@@ -76,7 +81,8 @@ Some of the tanks included are:
 The project is a work in progress, and updates are ongoing.
 
 - Player stats are currently not working.
-
+- Missing descriptions and images on some tanks.
+- Missing map details and information.
 
 ## Future Improvements
 
