@@ -60,7 +60,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-	color: #FF8300;
+	color: #fff;
 	text-decoration: none;
 	font-weight: 700;
 	transition: color 0.3s;
@@ -127,7 +127,7 @@ header nav ul li a i:hover {
 	border: none;
 	padding: 10px 20px;
 	margin: 10px;
-	font-size: 1em;
+	font-size: 1.5em;
 	cursor: pointer;
 	border-radius: 8px;
 	transition: background 0.3s;
@@ -195,7 +195,7 @@ header nav ul li a i:hover {
 	color: #ff8300;
 	border: none;
 	padding: 10px 20px;
-	font-size: 1em;
+	font-size: 1.2em;
 	cursor: pointer;
 	transition: background 0.3s;
 	border-radius: 8px;
@@ -234,7 +234,7 @@ header nav ul li a i:hover {
 	color: #ff8300;
 	border: none;
 	padding: 10px 20px;
-	font-size: 1em;
+	font-size: 1.5em;
 	cursor: pointer;
 	border-radius: 8px;
 	transition: background 0.3s;
@@ -273,7 +273,7 @@ header nav ul li a i:hover {
 	color: #ff8300;
 	border: none;
 	padding: 10px 20px;
-	font-size: 1em;
+	font-size: 1.5em;
 	cursor: pointer;
 	border-radius: 8px;
 	transition: background 0.3s;
