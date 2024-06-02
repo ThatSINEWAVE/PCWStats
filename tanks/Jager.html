@@ -96,7 +96,7 @@
     </footer>
     <script>
       document.addEventListener("DOMContentLoaded", function() {
-        fetch('../assets/data/Jager.json').then(response => response.json()).then(data => {
+        fetch('../assets/data/Jager/Jager_stock.json').then(response => response.json()).then(data => {
           document.getElementById('tank-name').textContent = data['TANK NAME'];
           const statsContainer = document.getElementById('tank-stats');
           // Function to create a stat section
