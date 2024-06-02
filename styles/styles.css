@@ -697,18 +697,21 @@ select {
 .highlighted-stat-names {
 	outline: 4px solid #ff0000;
 	outline-offset: -4px;
+	border-radius: 5pt;
 	background-color: inherit;
 }
 
 .highlighted-tank-1 {
 	outline: 4px solid #ff0000;
 	outline-offset: -4px;
+	border-radius: 5pt;
 	background-color: inherit;
 }
 
 .highlighted-tank-2 {
 	outline: 4px solid #ff0000;
 	outline-offset: -4px;
+	border-radius: 5pt;
 	background-color: inherit;
 }
 
