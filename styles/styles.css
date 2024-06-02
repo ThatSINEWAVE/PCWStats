@@ -343,6 +343,16 @@ footer {
 	padding: 20px;
 }
 
+footer a {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #fff;
+}
+
+footer a:hover {
+    text-decoration-color: #ff8300;
+}
+
 /* Scrollbar Styles */
 ::-webkit-scrollbar {
 	width: 10px;
