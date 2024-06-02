@@ -25,10 +25,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const tank2 = tank2Select.value;
 
         if (tank1 && tank2) {
-            fetch(`assets/data/${tank1}.json`)
+            fetch(`assets/data/${tank1}/${tank1}_stock.json`)
                 .then(response => response.json())
                 .then(tank1Data => {
-                    fetch(`assets/data/${tank2}.json`)
+                    fetch(`assets/data/${tank2}/${tank2}_stock.json`)
                         .then(response => response.json())
                         .then(tank2Data => {
                             displayStats(tank1Data, tank2Data);
