@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const categories = ['FIREPOWER', 'MOBILITY', 'SURVIVABILITY', 'RECON', 'UTILITY'];
 
     // Full list of tanks
-    const tanks = ["Punch", "Kent", "Chopper", "Titan", "Reaper", "Jager", "Blitz", "Akira", "Udarnik", "Fantome", "Raketa", "Atom", "HSTV-L", "Walkurie", "Arblast", "AR_AAV", "XM808_Twister", "Brimstone"];
+    const tanks = ["Punch", "Kent", "Chopper", "Titan", "Reaper", "Jager", "Blitz", "Akira", "Udarnik", "Fantome", "Raketa", "Atom", "HSTV-L", "Walkurie", "Arblast", "AR_AAV", "XM808_Twister", "Brimstone", "Ray"];
 
     // Populate dropdowns
     tanks.forEach(name => {
