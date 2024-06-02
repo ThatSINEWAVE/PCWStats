@@ -1,0 +1,28 @@
+# Site settings
+title: PCWStats
+description: A combined tool for Project CW statistics and analysis
+baseurl: "/PCWStats" # the subpath of your site, e.g. /blog
+url: "https://thatsinewave.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Permalinks configuration for clean URLs
+permalink: /:path/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude these files and directories from the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
