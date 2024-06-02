@@ -444,6 +444,83 @@ footer a:hover {
 	background: #2b2d30;
 }
 
+/* Guides Section Styles */
+.guides-section {
+  padding: 80px 20px 20px;
+  text-align: center;
+  background: #2b2d30;
+  color: #fff;
+}
+
+.guides-section h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.guides-section p {
+  font-size: 1.2em;
+  margin-bottom: 45px;
+}
+
+.guides-grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+}
+
+.guides-box {
+	background: #1a1a1a;
+	border: 1px solid #ff8300;
+	border-radius: 10px;
+	width: 400px;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	box-shadow: 0 0 5px rgba(255, 131, 0, 0.4);
+	transition: transform 0.3s;
+}
+
+.guides-box:hover {
+	transform: translateY(-5px);
+}
+
+.guides-box img {
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+}
+
+.guides-box h3 {
+	font-size: 1.5em;
+	color: #fff;
+	margin: 10px 0;
+}
+
+.guides-box p {
+	font-size: 1em;
+	color: #fff;
+}
+
+.guides-box .buttons {
+	margin-top: 15px;
+}
+
+.guides-box .buttons button {
+	background: #000;
+	color: #ff8300;
+	border: none;
+	padding: 10px 20px;
+	margin: 5px;
+	font-size: 1em;
+	cursor: pointer;
+	border-radius: 8px;
+	transition: background 0.3s;
+}
+
+.guides-box .buttons button:hover {
+	background: #2b2d30;
+}
+
 /* Tank Stats Section Styles */
 .tank-stats-section {
 	padding: 80px 20px;
@@ -674,7 +751,7 @@ select {
 
 /* Map Knowledge Section Styles */
 .map-knowledge-section {
-  padding: 80px 20px;
+  padding: 80px 20px 65px;
   text-align: center;
   background: #2b2d30;
   color: #fff;
@@ -690,22 +767,58 @@ select {
   margin-bottom: 40px;
 }
 
-/* Map Knowledge Section Styles */
-.map-knowledge-section {
+/* Tanks top Section Styles */
+.tanks-top-section {
   padding: 80px 20px 20px;
   text-align: center;
   background: #2b2d30;
   color: #fff;
 }
 
-.map-knowledge-section h2 {
+.tanks-top-section h2 {
   font-size: 2em;
   margin-bottom: 10px;
 }
 
-.map-knowledge-section p {
+.tanks-top-section p {
   font-size: 1.2em;
   margin-bottom: 40px;
+}
+
+/* Check-Compare top Section Styles */
+.check-compare-section {
+  padding: 80px 20px 20px;
+  text-align: center;
+  background: #2b2d30;
+  color: #fff;
+}
+
+.check-compare-section h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.check-compare-section p {
+  font-size: 1.2em;
+  margin-bottom: 73px;
+}
+
+/* Players top Section Styles */
+.players-section {
+  padding: 80px 20px 20px;
+  text-align: center;
+  background: #2b2d30;
+  color: #fff;
+}
+
+.players-section h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.players-section p {
+  font-size: 1.2em;
+  margin-bottom: 73px;
 }
 
 /* Maps Section Styles */
