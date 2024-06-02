@@ -857,6 +857,16 @@ select {
   text-align: center;
 }
 
+.map-text-section a {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #fff;
+}
+
+.map-text-section a:hover {
+    text-decoration-color: #ff8300;
+}
+
 /* Responsive Styles */
 @media (max-width: 768px) {
 	header {
