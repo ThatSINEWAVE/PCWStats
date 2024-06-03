@@ -594,6 +594,66 @@ footer a:hover {
 	background: #1e1f22;
 }
 
+/* Upgrades, Perks, and Consumables Section */
+.upgrades-perks-consumables {
+  background: #1a1a1a;
+  border: 1px solid #ff8300;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  max-width: 800px;
+  box-shadow: 0 0 5px rgba(255, 131, 0, 0.5);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 0 auto;
+}
+
+.upgrades {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.upgrade-slot {
+  background-color: #2b2d30;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(255, 131, 0, 0.5);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.upgrade-slot:hover {
+  background-color: #3d3f43;
+}
+
+.perk-slot,
+.consumable-slot {
+  background-color: #2b2d30;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(255, 131, 0, 0.5);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.perk-slot:hover,
+.consumable-slot:hover {
+  background-color: #3d3f43;
+}
+
+.section-title {
+  color: #fff;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
 /* Compare Column Styles */
 .compare-section {
 	max-width: 1200px;
