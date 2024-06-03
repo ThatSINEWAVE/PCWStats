@@ -62,8 +62,8 @@ header nav ul {
 header nav ul li {
 	margin-left: 20px;
 	line-height: 40px;
-    vertical-align: middle;
-    margin-bottom: 2px;
+	vertical-align: middle;
+	margin-bottom: 2px;
 }
 
 header nav ul li a {
@@ -74,7 +74,7 @@ header nav ul li a {
 	display: flex;
 	align-items: center;
 	line-height: 40px;
-    vertical-align: middle;
+	vertical-align: middle;
 }
 
 header nav ul li a:hover {
@@ -86,7 +86,7 @@ header nav ul li a i {
 	color: #ff8300;
 	transition: color 0.3s;
 	line-height: 40px;
-    vertical-align: middle;
+	vertical-align: middle;
 }
 
 header nav ul li a i:hover {
@@ -344,13 +344,13 @@ footer {
 }
 
 footer a {
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
-    text-decoration-color: #fff;
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+	text-decoration-color: #fff;
 }
 
 footer a:hover {
-    text-decoration-color: #ff8300;
+	text-decoration-color: #ff8300;
 }
 
 /* Scrollbar Styles */
@@ -446,20 +446,20 @@ footer a:hover {
 
 /* Guides Section Styles */
 .guides-section {
-  padding: 80px 20px 20px;
-  text-align: center;
-  background: #2b2d30;
-  color: #fff;
+	padding: 80px 20px 20px;
+	text-align: center;
+	background: #2b2d30;
+	color: #fff;
 }
 
 .guides-section h2 {
-  font-size: 2em;
-  margin-bottom: 10px;
+	font-size: 2em;
+	margin-bottom: 10px;
 }
 
 .guides-section p {
-  font-size: 1.2em;
-  margin-bottom: 45px;
+	font-size: 1.2em;
+	margin-bottom: 45px;
 }
 
 .guides-grid {
@@ -754,233 +754,234 @@ select {
 
 /* Map Knowledge Section Styles */
 .map-knowledge-section {
-  padding: 80px 20px 65px;
-  text-align: center;
-  background: #2b2d30;
-  color: #fff;
+	padding: 80px 20px 65px;
+	text-align: center;
+	background: #2b2d30;
+	color: #fff;
 }
 
 .map-knowledge-section h2 {
-  font-size: 2em;
-  margin-bottom: 10px;
+	font-size: 2em;
+	margin-bottom: 10px;
 }
 
 .map-knowledge-section p {
-  font-size: 1.2em;
-  margin-bottom: 40px;
+	font-size: 1.2em;
+	margin-bottom: 40px;
 }
 
 /* Tanks top Section Styles */
 .tanks-top-section {
-  padding: 80px 20px 20px;
-  text-align: center;
-  background: #2b2d30;
-  color: #fff;
+	padding: 80px 20px 20px;
+	text-align: center;
+	background: #2b2d30;
+	color: #fff;
 }
 
 .tanks-top-section h2 {
-  font-size: 2em;
-  margin-bottom: 10px;
+	font-size: 2em;
+	margin-bottom: 10px;
 }
 
 .tanks-top-section p {
-  font-size: 1.2em;
-  margin-bottom: 40px;
+	font-size: 1.2em;
+	margin-bottom: 40px;
 }
 
 /* Check-Compare top Section Styles */
 .check-compare-section {
-  padding: 80px 20px 20px;
-  text-align: center;
-  background: #2b2d30;
-  color: #fff;
+	padding: 80px 20px 20px;
+	text-align: center;
+	background: #2b2d30;
+	color: #fff;
 }
 
 .check-compare-section h2 {
-  font-size: 2em;
-  margin-bottom: 10px;
+	font-size: 2em;
+	margin-bottom: 10px;
 }
 
 .check-compare-section p {
-  font-size: 1.2em;
-  margin-bottom: 73px;
+	font-size: 1.2em;
+	margin-bottom: 73px;
 }
 
 /* Players top Section Styles */
 .players-section {
-  padding: 80px 20px 20px;
-  text-align: center;
-  background: #2b2d30;
-  color: #fff;
+	padding: 80px 20px 20px;
+	text-align: center;
+	background: #2b2d30;
+	color: #fff;
 }
 
 .players-section h2 {
-  font-size: 2em;
-  margin-bottom: 10px;
+	font-size: 2em;
+	margin-bottom: 10px;
 }
 
 .players-section p {
-  font-size: 1.2em;
-  margin-bottom: 73px;
+	font-size: 1.2em;
+	margin-bottom: 73px;
 }
 
 /* Maps Section Styles */
 .maps-section {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0px;
-  background: #2b2d30;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0px;
+	background: #2b2d30;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .map-box {
-  background: #1a1a1a;
-  border: 1px solid #ff8300;
-  border-radius: 10px;
-  width: 100%;
-  color: #fff;
-  text-align: center;
-  padding: 20px;
-  box-shadow: 0 0 5px rgba(255, 131, 0, 0.4);
-  transition: transform 0.3s;
-  margin-bottom: 40px;
+	background: #1a1a1a;
+	border: 1px solid #ff8300;
+	border-radius: 10px;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	box-shadow: 0 0 5px rgba(255, 131, 0, 0.4);
+	transition: transform 0.3s;
+	margin-bottom: 40px;
 }
 
 .map-box:hover {
-  transform: translateY(-5px);
+	transform: translateY(-5px);
 }
 
 .map-box img {
-  width: 100%;
-  max-width: 800px;
-  border-radius: 10px 10px 0 0;
+	width: 100%;
+	max-width: 800px;
+	border-radius: 10px 10px 0 0;
 }
 
 .map-box h3 {
-  font-size: 1.5em;
-  color: #fff;
-  margin: 10px 0;
+	font-size: 1.5em;
+	color: #fff;
+	margin: 10px 0;
 }
 
 .map-box p {
-  font-size: 1em;
-  color: #fff;
+	font-size: 1em;
+	color: #fff;
 }
 
 .map-box button {
-  background: #000;
-  color: #ff8300;
-  border: none;
-  padding: 10px 20px;
-  margin-top: 10px;
-  font-size: 1em;
-  cursor: pointer;
-  border-radius: 8px;
-  transition: background 0.3s;
+	background: #000;
+	color: #ff8300;
+	border: none;
+	padding: 10px 20px;
+	margin-top: 10px;
+	font-size: 1em;
+	cursor: pointer;
+	border-radius: 8px;
+	transition: background 0.3s;
 }
 
 .map-box button:hover {
-  background: #2b2d30;
+	background: #2b2d30;
 }
 
 /* Map Details Section Styles */
 .map-details-section {
-  padding: 40px 20px 20px; /* Added padding-bottom */
-  background: #2b2d30;
-  color: #fff;
-  text-align: center;
-  max-width: 800px;
-  margin: 0 auto;
-  border: 1px solid #ff8300;
-  border-radius: 10px;
-  box-shadow: 0 0 5px rgba(255, 131, 0, 0.4);
+	padding: 40px 20px 20px;
+	/* Added padding-bottom */
+	background: #2b2d30;
+	color: #fff;
+	text-align: center;
+	max-width: 800px;
+	margin: 0 auto;
+	border: 1px solid #ff8300;
+	border-radius: 10px;
+	box-shadow: 0 0 5px rgba(255, 131, 0, 0.4);
 }
 
 .map-details-section h2 {
-  font-size: 2em;
-  margin-bottom: 10px;
+	font-size: 2em;
+	margin-bottom: 10px;
 }
 
 .map-details-section p {
-  font-size: 1.2em;
-  margin-bottom: 20px;
+	font-size: 1.2em;
+	margin-bottom: 20px;
 }
 
 /* Map Image Section Styles */
 .map-image-section {
-  padding: 20px;
-  background: #1a1a1a;
-  text-align: center;
-  max-width: 800px;
-  margin: 0 auto;
-  margin-bottom: 20px;
-  border: 1px solid #ff8300;
-  border-radius: 10px;
-  box-shadow: 0 0 5px rgba(255, 131, 0, 0.4);
+	padding: 20px;
+	background: #1a1a1a;
+	text-align: center;
+	max-width: 800px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	border: 1px solid #ff8300;
+	border-radius: 10px;
+	box-shadow: 0 0 5px rgba(255, 131, 0, 0.4);
 }
 
 .map-knowledge-section p {
-  max-width: 800px;
-  text-align: center;
-  margin: 0 auto;
+	max-width: 800px;
+	text-align: center;
+	margin: 0 auto;
 }
 
 .map-image-section .image-container {
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  border-radius: 10px;
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+	border-radius: 10px;
 }
 
 .map-image-section img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 /* Map Text Section Styles */
 .map-text-section {
-  padding: 20px;
-  background: #1a1a1a;
-  color: #fff;
-  text-align: center;
-  max-width: 800px;
-  margin: 0 auto 20px;
-  border: 1px solid #ff8300;
-  border-radius: 10px;
-  box-shadow: 0 0 5px rgba(255, 131, 0, 0.4);
+	padding: 20px;
+	background: #1a1a1a;
+	color: #fff;
+	text-align: center;
+	max-width: 800px;
+	margin: 0 auto 20px;
+	border: 1px solid #ff8300;
+	border-radius: 10px;
+	box-shadow: 0 0 5px rgba(255, 131, 0, 0.4);
 }
 
 .map-text-section h3 {
-  font-size: 1.8em;
-  margin-bottom: 20px;
+	font-size: 1.8em;
+	margin-bottom: 20px;
 }
 
 .map-text-section p {
-  font-size: 1.2em;
-  max-width: 800px;
-  margin: 0 auto 20px;
-  text-align: center;
+	font-size: 1.2em;
+	max-width: 800px;
+	margin: 0 auto 20px;
+	text-align: center;
 }
 
 .map-text-section a {
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
-    text-decoration-color: #fff;
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+	text-decoration-color: #fff;
 }
 
 .map-text-section a:hover {
-    text-decoration-color: #ff8300;
+	text-decoration-color: #ff8300;
 }
 
 /* Responsive Styles */
@@ -1016,19 +1017,19 @@ select {
 		max-width: 100%;
 	}
 
-    .map-image-section .image-container {
-      max-width: 600px;
-    }
+	.map-image-section .image-container {
+		max-width: 600px;
+	}
 
 	.map-details-section {
-      padding: 20px;
-    }
+		padding: 20px;
+	}
 
-    .map-image-section {
-      padding: 20px;
-    }
+	.map-image-section {
+		padding: 20px;
+	}
 
-    .map-text-section {
-      padding: 20px;
-    }
+	.map-text-section {
+		padding: 20px;
+	}
 }
