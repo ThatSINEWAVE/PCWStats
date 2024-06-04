@@ -561,11 +561,6 @@ footer a:hover {
 	transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.stat-section:hover {
-	transform: translateY(-5px);
-	box-shadow: 0 0 10px rgba(26, 26, 26, 1);
-}
-
 .stat-section h3 {
 	font-size: 1.5em;
 	margin-bottom: 15px;
